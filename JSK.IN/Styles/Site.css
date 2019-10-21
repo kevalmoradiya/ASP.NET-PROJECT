@@ -1,0 +1,307 @@
+﻿/* DEFAULTS
+----------------------------------------------------------*/
+html, body {
+	height:auto;
+	width: 998px;
+	margin-top: 15px;
+	margin-right: auto;
+	margin-left: auto;
+	
+}
+
+#item
+{
+   position:relative;
+   color:Blue;
+   margin-top:20px;
+   border:solid 2px #330066;
+   width:670px;
+   height:450px; 
+   padding:20px;
+   
+}
+
+#column1
+{
+    
+    position :absolute;
+    width:200px;
+    top: 20px;
+    left: 20px;
+}
+#column2
+{
+    position :absolute;
+    width:200px;
+    margin-left:230px;
+}
+#column3
+{
+    position:absolute;
+    width:200px;
+    margin-left:460px;
+}
+
+#sideadd
+{
+    float:right;
+    border:solid 2px #330066;
+    height:490px;
+    width:259px;
+    margin-top:20px;
+    
+}
+
+
+/* POST ADD*/
+#post-box
+{
+    border:solid 2px #330066;
+    margin-top:10px;
+}
+
+/* SIGNIN*/
+
+#signinf
+{
+    border:solid 2px #330066;
+    margin-top:10px;
+    
+}
+
+
+#signin
+{
+    border:solid 2px #330066;
+    margin-top:25px;
+    float:left;
+    padding:10px 10px 10px 10px;
+   
+    
+    width: 451px;
+    
+}
+
+#email
+{
+    border:solid 2px #330066;
+    margin-top:25px;
+    float:right;
+    width:490px;
+    padding:10px 10px 10px 10px;
+    
+    
+}
+
+#signinregister
+{
+    border:solid 2px #330066;
+    margin-top:300px;
+    
+}
+
+
+/*REGISTER*/
+#register
+{
+     border:solid 2px #330066;
+    margin-top:10px;
+    padding:0px 0px 10px 10px;
+    
+}
+
+#registerf
+{
+    border:solid 2px #330066;
+    margin-top:10px;
+    
+}
+
+
+
+
+
+/*YOURAD*/
+
+#refineresult
+{
+   float:left;
+   border:solid 2px #330066;
+   height:auto;
+   width:230px; 
+   margin-top:10px;
+}
+
+#seeadh
+{
+    float:right;
+    border:solid 2px #330066;
+    height:auto;
+    width:750px;
+    margin-top:10px;
+    
+}
+
+#seead
+{
+    float:right;
+    
+    height:auto;
+    width:750px;
+    margin-top:10px;
+    
+}
+#refineresultq
+{
+   float:left;
+  
+   height:auto;
+   width:230px; 
+   margin-top:10px;
+}
+
+
+
+
+
+
+
+/* ADDETAIL  */
+#detail
+{
+    border:solid 2px #333333;
+    float:left;
+    width:610px;
+    margin-top:10px;
+}
+
+#responseemail
+{
+    border:solid 2px #333333;
+    float:right;
+    width:340px;
+   
+    
+    
+    color:White;
+}
+
+#sendemail1
+{
+ height:180px;
+
+  
+    
+}
+
+
+/* user*/
+
+#userfieldm
+{
+ 
+  position:relative;
+   float:left;
+   
+   height:auto;
+   width:230px; 
+   margin-top:10px;
+  
+  
+}
+#userfieldmi
+{
+    float:right;
+    
+    height:auto;
+    width:750px;
+    margin-top:10px;
+    
+    
+}
+
+#menu {
+	
+	
+	height: auto;
+	position:relative;
+}
+
+#menu a:hover {
+	text-decoration: none;
+	background:#660066;
+}
+
+/*footer*/
+
+
+
+
+	#footer_sitemap 
+	{
+		float:left;
+		width:300px;
+	}
+		#footer_sitemap ul {
+			list-style:none;
+			margin-left:10px;
+		}
+		#footer_sitemap li {
+			
+			padding-left:15px;
+			margin:9px 0;
+		}
+		#footer_sitemap li a {
+			display:block;
+			height:21px;
+			
+		}
+
+#footer_sitemap a 
+{
+			
+			font-size:30px;			
+		}
+
+	#footer_contact {
+		float:right;
+		width:310px;
+	}
+		#footer_contact p {
+			display:block;
+			width:100%;
+			
+			
+		}
+		
+		
+#footer h3 {
+	color: White;
+	
+	
+	font-size:100%;
+	margin-top:5px;
+	display:block;
+	height:35px;
+	
+}
+#footer a {
+	color:#fff;
+	text-decoration:none;
+	font-weight:bold;
+}
+#footer a:hover
+ {
+	color:#00aeef;
+}
+
+
+
+
+#footer
+{
+   
+    position:relative;
+    
+}
+

@@ -1,0 +1,91 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Adminmaster.master.cs" Inherits="Adminmaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <style type="text/css">
+        .style1
+        {
+    height:auto;
+	width: 998px;
+	margin-top: 15px;
+	margin-right: auto;
+	margin-left: auto;
+	
+        }
+        .style2
+        {
+            float:left;
+        }
+        .style3
+        {
+            float:right;
+        }
+         .buttonchange:hover 
+        {
+           background: #660066;
+           color:White;
+        }
+        
+        
+    </style>
+    <link rel="shortcut icon" href="img/333.jpg" />
+    <link href="Styles/Site.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body background="img/jskbackground.jpg">
+  
+<form id="form1" runat="server">
+<asp:Panel ID="Panel1" runat="server" CssClass="style1" BackColor="Gray"  >
+    
+    <asp:Panel ID="Panel2" runat="server" Width="200px" CssClass="style2" 
+        BackColor="#333333">
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <asp:Button ID="Button4" runat="server" CssClass="buttonchange" 
+            Font-Size="11pt" Text="Logout" onclick="Button4_Click" />
+        <br />
+        <br />
+        <br />
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <asp:Button ID="Button1" runat="server" Text="User Management" Width="150px" 
+            onclick="Button1_Click" BorderStyle="Solid" CssClass="buttonchange" 
+            Font-Size="12pt" Height="50px" /><br />
+        <br />
+
+        &nbsp;&nbsp;&nbsp;&nbsp;
+
+        <asp:Button ID="Button2" runat="server" Text="Send Message" Width="150px" 
+            onclick="Button2_Click1" BorderStyle="Solid" CssClass="buttonchange" 
+            Font-Size="12pt" Height="50px" />
+        <br />
+        <br />
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <asp:Button ID="Button5" runat="server" BorderStyle="Solid" 
+            CssClass="buttonchange" Font-Size="12pt" Height="50px" onclick="Button5_Click1" 
+            Text="Remove Account" Width="150px" />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+    </asp:Panel>
+    
+    <asp:Panel ID="Panel3" runat="server" Width="798px" CssClass="style3" 
+         BackColor="Silver">
+        
+        
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+
+            </asp:ContentPlaceHolder>
+       
+       
+    </asp:Panel>
+    
+</asp:Panel>
+</form>
+
+    </body>
+</html>
